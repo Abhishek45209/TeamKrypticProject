@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,'sans-serif';
+    
+   
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+}
+
+#lefthalf{
+    height: 100%;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+
+#righthalf{
+    height: 100%;
+    width: 65%;
+    background-color: rgb(96, 227, 250);
+}
+
+#righthalftop{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(255, 191, 73);
+    display: flex;
+}
+
+#righthalfbottom{
+    height: 50%;
+    width:  100%;
+    background-image: url(https://media.istockphoto.com/id/1222196857/photo/girls-eating-street-food-with-enjoying.jpg?s=2048x2048&w=is&k=20&c=kAWPW0NVAnRZ8WWFrqC_KzkrRUNCrkYjoYB1ZUAae6s=);
+    background-position: top;
+    background-size: cover;
+}
+
+#righthalftopleft{
+    height: 100%;
+    width: 55%;
+   background-image: url(https://media.istockphoto.com/id/1438449132/photo/egg-cheese-chicken-burger-shawarma-wrap-with-salad-dip-and-sauce-isolated-wooden-board-side.webp?b=1&s=170667a&w=0&k=20&c=iD0_wyxv5sfdQGEsM9jQfWiQIibYtTZ6DvK1T54UkMI=);
+   background-position: center;
+   background-size: cover;
+}
+
+#righthalftopright{
+    height: 100%;
+    width: 45%;
+    background-image: url([Downloader.la]-65054f9d87731.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#lnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+#lnavr {
+    display: flex;
+    align-items: center;
+
+
+}
+
+#lnavr a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 14px;
+}
+#lnavr i {
+    color: royalblue;
+}
+
+#welcometext{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+#welcometext h1 {
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+#welcometext p {
+    opacity: 65%;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#welcometext a {
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+
+#bottomarrow{
+    bottom: 18%;
+    color: antiquewhite;
+}
+
+
+
+@media(max-width : 500px) {
+
+    #main {
+        flex-direction: column;
+    }
+    #main #lefthalf {
+        width: 100%;
+
+    }
+    
+    #main #righthalf{
+        width: 100%;
+
+    }
+}

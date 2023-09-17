@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+.btn {
+    width: 5rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*--------------
+Navbar
+--------------*/
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.resturant-logo {
+    width: 100%
+}
+
+.menu ul {
+    list-style-type: none;
+    line-height: 2.5rem;
+
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+/*--------------
+food-search
+--------------*/
+.food-search {
+    background-image: url(https://i.postimg.cc/YqCLP8mc/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5.5rem 0;
+    text-align: center;
+
+
+}
+
+.food-search input[type=text] {
+    width: 50%;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+
+
+}
+
+.food-search input[type=text]:hover {
+    border: 5px solid #ff6b81;
+}
+
+.food-search input[type=text]:active {
+    border: 5px solid brown;
+}
+
+.btn-primary {
+    background-color: #ff6b81;
+    width: 10%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: brown;
+
+}
+
+/*--------------
+Catogaries
+--------------*/
+.Catogaries {
+    padding: 2% 0;
+
+}
+
+.box-3 {
+    width: 30%;
+    float: left;
+    margin: 1%;
+    margin-top: 2rem;
+
+}
+
+.img-catogaries {
+    width: 100%;
+    height: 25rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.float-container {
+    position: relative;
+}
+
+.float-text {
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    color: white;
+}
+
+/*--------------
+Food Menu
+--------------*/
+.food-menu {
+    background-color: lightgrey;
+
+}
+
+.food-menu-box {
+    width: 48%;
+    float: left;
+    background-color: white;
+    border-radius: 3rem;
+    padding: 1rem;
+    margin: 1%;
+    margin-top: 2rem;
+}
+
+.img-food-menu {
+    width: 20%;
+
+
+}
+
+.img-order {
+    width: 100%;
+    border-radius: 1rem;
+    float: left;
+    margin: 0 20px;
+}
+
+.Desc-food-menu {
+    margin: 0 10px;
+
+
+}
+
+.Desc-food-menu .para-formating {
+    color: #A7AAAD;
+}
+
+.order-now {
+    text-decoration: none;
+    background-color: #ff6b81;
+    width: 10%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1rem;
+}
+
+/*--------------
+Social
+--------------*/
+.social ul {
+    list-style: none;
+}
+
+.social ul li {
+    display: inline
+}
+
+.icons {
+    font-size: 2rem;
+    padding: 0.4rem;
+    color: #ff6b81;
+}
+
+/*--------------
+footer
+--------------*/
+
+
+
+/*--------------
+for Mobile
+--------------*/
+@media only screen and (max-width:600px) {
+    .logo {
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+        padding-top: 1%;
+    }
+
+    .menu ul {
+        text-align: center;
+    }
+
+    .menu ul li {
+        position: relative;
+        left: 4rem;
+        top: 0.5rem;
+        font-size-adjust: auto;
+    }
+
+    .food-search input[type=text] {
+        width: 60%;
+        border-radius: 1rem 0 0px 1rem;
+        padding: 0.6rem;
+    }
+
+    .food-search input[type=text]:hover {
+        border: none;
+    }
+
+
+    .btn-primary {
+        position: relative;
+        right: 4px;
+        outline: none;
+
+    }
+
+    .btn {
+        width: 5rem;
+        padding: 0.6rem;
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    .box-3 {
+        width: 90%;
+        float: none;
+    }
+
+    .food-menu-box {
+        width: 100%;
+        height: auto;
+        /*margin-left:5%;*/
+    }
+
+    .img-food-menu {
+        width: 40%;
+    }
+
+    .order-now {
+        border-radius: 1rem;
+        position: relative;
+        left: 7%;
+    }
+
+}
