@@ -12,6 +12,30 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#varieties {
+  background-color: #e3e3e3;
+}
+
+.tile button {
+  background-color: green;
+  color: white;
+  
+}
+
+.tile button:hover{
+  background-color: #f30e07;
+}
+.tile {
+  background-color: #fafafa;
+  height: 26rem;
+  width: 25rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
 #header {
   height: max-content;
   font-family: "Montserrat", sans-serif;
@@ -93,6 +117,7 @@ nav {
   align-content: center;
   text-align: center;
 }
+
 .home-sec {
   font-family: "Montserrat", sans-serif;
   background-color: #ffffff;
@@ -104,6 +129,7 @@ nav {
   max-width: 95rem;
   color: #202020;
 }
+
 @media (max-width: 800px) {
   .home-sec {
     flex-flow: column wrap;
@@ -181,16 +207,7 @@ nav {
 .sec-padding {
   padding: 8rem 0 10rem 0;
 }
-#about {
-  background-color: #fafafa;
-}
-#about img {
-  max-width: 100%;
-  height: auto;
-  background-color: white;
-  border-radius: 0.5rem;
-  box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
-}
+
 
 
 @media (max-width: 680px) {
@@ -205,13 +222,14 @@ nav {
 .tile img {
   width: 100%;
   max-width: 48rem;
+  max-height: 15rem;
   border-radius: 0.5rem;
 }
 .tile h4 {
   font-size: 2rem;
   font-weight: 600;
   padding: 1rem 0;
-  color: #e23d3d;
+  color: #f30e07;
   margin: 0;
 }
 .tile p {
@@ -233,12 +251,6 @@ nav {
   }
 }
 
-@media (max-width: 520px) {
-  #contact h6 {
-    font-size: 2rem;
-  }
-  #contact input[type="submit"],
-  #contact input[type="email"] {
-    margin: 1rem 1rem 0 1rem;
-  }
-}
+
+
+
